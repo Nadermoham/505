@@ -1,0 +1,14 @@
+CACHE MANIFEST 
+# MOHAMED GABER 505 ( Wed 02/10/2024 )
+
+base64.jpg
+cache.html
+common.js
+goldhenv24b16.bin
+index.html
+kernelExploit_bpf_double_free.js
+offsets.js
+rop.js
+userland.js
+webkitExploit_haveABadTime.js
+webkitExploit_stackUnitializedRead.js

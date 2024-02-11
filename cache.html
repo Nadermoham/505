@@ -1,0 +1,29 @@
+<html manifest="Cache.manifest">
+<head>
+<title>MOHAMED GABER5.05 Hen Gold</title>
+<style>
+html, body {background-image: url(base64.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+background-color: #24272b;
+color: white;
+text-align: center;
+margin: 0px;
+overflow: hidden;
+}
+h1 {
+text-shadow: 0.1em 0.1em 0.2em black;
+font-size: 25px;
+text-align: center;
+color: white;
+}
+</style>
+<script>
+history.replaceState(null,null,'index.html');var histlength=history.length;history.go(-histlength);
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Installing Offline Cache: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="تم تثبيت ذاكرة التخزين المؤقت بنجاح ✔";},1000);setTimeout(function(){window.msgs.innerHTML="أغلق الآن ....... افصل الإنترنت عن الجهاز وأعد فتح المتصفح...";},3000);}window.applicationCache.addEventListener("تقدم",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+</script>
+<br>
+<h1 id=msgs style="font-size: 30px;margin-top: 350px;margin-bottom: 391px;">MOHAMED GABER</h1>
+</body>
+</html>
